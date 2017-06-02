@@ -1,0 +1,72 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Montserrat */
+  font-family: 'Montserrat', sans-serif;
+
+}
+/**CONTENEDOR FLEXBOX**/
+.flex-container{
+	display: flex;
+}
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+  justify-content: flex-end;
+   z-index: 3;
+
+}
+/*link especial*/
+#log-in{
+	margin-right:10%;
+}
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+/**ESTILO PARA NUESTRO MENU NAV**/
+.menu{
+
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	align-items: center;
+	margin-top: 2%;
+	background-clip: 
+}
+/*la propiedad justify-content con el valor flex-start, logramos que nuestros elementos queden alineados a la izq */
+.menu.flex-container{
+	justify-content:flex-end;
+}
+/*para que el logo quede hacia la derecha, ocupamos margin-left:auto; (afecta solo el lado derecho del margin*/
+.logo-container{
+	margin-right:  auto;
+	margin-left:  20px;
+}	
+/*dimensiones del logo*/
+.flex-container .logo {
+    width: 70px;
+    margin-left:82%;
+}
+
+video {
+    width: 100%;
+    margin-top: -138px;
+    /* margin-bottom: 2%; */
+     z-index: -9999999; 
+     background-size: cover;
+     position: center;
+     position: absolute;
+}
+
+
+
