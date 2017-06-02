@@ -5,31 +5,35 @@ body {
   background-color: #fff;
   /* Enlaza la tipografia Montserrat */
   font-family: 'Montserrat', sans-serif;
-
+}
+html {
+    font-size: 16px;
 }
 /**CONTENEDOR FLEXBOX**/
 .flex-container{
 	display: flex;
 }
-.link{
-  font-weight: 700;
-  padding: 21px;
-  display: inline-block;
-  justify-content: flex-end;
-   z-index: 3;
-
+.link {
+    font-weight: 700;
+    padding: 21px;
+    display: inline-block;
+    justify-content: flex-end;
+    z-index: 3;
+    color: white;
 }
 /*link especial*/
 #log-in{
 	margin-right:10%;
 }
 a {
-  color: #373B47;
-  text-decoration: none;
+    color: #373B47;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
 }
 
 a:hover {
-  color: #E95853;
+  color: #FF00BF;
 }
 
 /**ESTILO PARA NUESTRO MENU NAV**/
@@ -40,8 +44,7 @@ a:hover {
 	left:0;
 	width: 100%;
 	align-items: center;
-	margin-top: 2%;
-	background-clip: 
+	margin-top: 1%;
 }
 /*la propiedad justify-content con el valor flex-start, logramos que nuestros elementos queden alineados a la izq */
 .menu.flex-container{
@@ -68,5 +71,32 @@ video {
      position: absolute;
 }
 
+/*registro*/
+.registro.flex-container{
+justify-content:flex-end;
 
+}
+.cuadro {
+    background-color: white;
+    width: 44%;
+    height: 67%;
+    margin-top: 6%;
+}
+
+.registro{
+	    height: 600px;
+    margin-top: 70px;
+}
+
+
+
+/**ESTILO DE FOOTER**/
+/*para que nuestros elementos esten centrados, horizontal y vertical , usamos el valor *center* y ocupamos las propiedades justify-content Y flex-direction*/
+#footer{
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #373b47;
+	color:whitesmoke;
+}
 
