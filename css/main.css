@@ -79,12 +79,12 @@ justify-content:flex-end;
 .cuadro {
     background-color: white;
     width: 44%;
-    height: 67%;
+    
     margin-top: 6%;
 }
 
 .registro{
-	    height: 600px;
+	
     margin-top: 70px;
 }
 
