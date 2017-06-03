@@ -20,21 +20,21 @@ html {
     justify-content: flex-end;
     z-index: 3;
     color: white;
-}
-/*link especial*/
-#log-in{
-	margin-right:10%;
-}
-a {
-    color: #373B47;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     margin: 10px;
 }
-
-a:hover {
+.menu a:hover {
   color: #FF00BF;
 }
+
+/*link especial*/
+#log-in{
+	margin-right:10%;
+}
+
+
 
 /**ESTILO PARA NUESTRO MENU NAV**/
 .menu{
@@ -78,23 +78,100 @@ justify-content:flex-end;
 }
 .cuadro {
     background-color: white;
-    width: 44%;
-    
-    margin-top: 8%;
+    /* width: 39%; */
+    height: 406px;
+    margin-top: 9%;
+    padding: 1%;
+    padding: 3em;
+    flex-direction: column;
 }
+
+
+.cuadro h1{
+  color: #352384;
+  font-weight: 100;
+}
+
+.cuadro h1 p{
+  color: #352384;
+  font-weight: 100;
+
+}
+.registro.cuadro  #buttonn{
+  flex-direction: row;
+
+}
+.registro #botonn a:hover{
+    color: #FF00BF;
+}
+
+#botonn {
+    color: white;
+    width: 189px;
+    height: 50px;
+    padding: 10px;
+    background-color: #FF00bf;
+    border-radius: 12px;
+    /* position: relative; */
+    /* top: 82px; */
+    font-size: 19px;
+    border: transparent;
+}
+
+#phone {
+    /* position: relative; */
+    /* top: 61px; */
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 436px;
+    border-bottom: 1px solid #75726C;
+    /* background-color: #EDE9E2; */
+    font-size: 15px;
+    padding: 8px;
+    /* color: #728094; */
+}
+
+/*INFOMARCION 1*/
+.informacion{
+  background-color: pink;
+}
+
+.informacion .text-info1{
+  flex-direction: column;
+}
+
+/*VIDEO1*/
+.video1 , .video2 ,.video3{
+  background-color:whitesmoke;
+  align-items: center;
+
+}
+
+.video1 .text-video1{
+  flex-direction: column;
+  margin: 10px;
+}
+
+
 
 
 
 
 /**ESTILO DE FOOTER**/
 /*para que nuestros elementos esten centrados, horizontal y vertical , usamos el valor *center* y ocupamos las propiedades justify-content Y flex-direction*/
+.footter{
+  background-color: #373b47;
+  justify-content: center; 
+}
 #footer{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: #373b47;
+
 	color:whitesmoke;
 }
+
 
 
 
@@ -118,9 +195,9 @@ justify-content:flex-end;
 
 
 
+/*
 
-
-/* REGISTRO TELEFONICO*/
+ REGISTRO TELEFONICO
 .registro{
   background:#EDE9E2;
   position: relative;
@@ -130,7 +207,7 @@ justify-content:flex-end;
   left:940px;
   margin:0;
   padding:0;
-  z-index: -1;
+  z
 }
 
 .learn , .here{
@@ -190,5 +267,5 @@ justify-content:flex-end;
     font-size: 20px;
     border: transparent;
     }
-
+*/
 

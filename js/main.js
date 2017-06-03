@@ -12,7 +12,7 @@ function cambioDeNavbar() {
     }
 
     // Al salir de la sección vuelve a su color original -> blanco
-    if (distanciaY > 1400) {
+    if (distanciaY > 5000) {
         navbar.classList.remove("menu-color");
     }
 }
