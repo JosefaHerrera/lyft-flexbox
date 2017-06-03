@@ -80,7 +80,7 @@ justify-content:flex-end;
     background-color: white;
     width: 44%;
     
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 
@@ -95,4 +95,100 @@ justify-content:flex-end;
 	background-color: #373b47;
 	color:whitesmoke;
 }
+
+
+
+/*navbar dos para el cambio*/
+
+.menu-color {
+    width: 100%;
+    height: 98px;
+    background-color:white;
+    color: black;
+    position: fixed;
+    top: -14px;
+    left: 0;
+}
+.menu-color a{
+  color:black;
+}
+.menu-color a:hover{
+ color: #FF00BF;
+}
+
+
+
+
+
+/* REGISTRO TELEFONICO*/
+.registro{
+  background:#EDE9E2;
+  position: relative;
+  width:500px;
+  height:450px;
+  bottom:-196px;
+  left:940px;
+  margin:0;
+  padding:0;
+  z-index: -1;
+}
+
+.learn , .here{
+  color:black;
+}
+#turn{
+
+  color:#00B2A9;
+  position: absolute;
+  left: 50px;
+  top:50px;
+}
+#sing {
+    position: absolute;
+    left: 50px;
+    bottom:318px;
+    color:#75726C;
+}
+
+#telefono{
+  position: absolute;
+      left: 50px;
+    bottom: 260px;
+    color:#75726C;
+
+}
+#textoInvitar{
+
+  display: block;
+  left: 50px;
+    bottom: 77px;
+    color:black;
+    position: absolute;
+}
+
+#phone{
+  position: relative;
+  top: 61px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  width: 404px;
+  border-bottom: 1px solid #75726C;;
+  background-color:#EDE9E2; 
+  font-size: 15px;
+    padding: 8px;
+
+}
+#botonn {
+    color: white;
+    width: 239px;
+    padding: 10px;
+    background-color: #E54E79;
+    border-radius: 12px;
+    position: relative;
+    top: 82px;
+    font-size: 20px;
+    border: transparent;
+    }
+
 
