@@ -158,6 +158,8 @@ justify-content:flex-end;
 
 .img-phone {
     margin-right: 100px;
+    width: 500px;
+    height: 500px;
 }
 
 .text-informacion1 {
