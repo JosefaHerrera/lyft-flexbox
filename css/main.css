@@ -181,8 +181,7 @@ p
 
 
 
-/**ESTILO DE FOOTER**/
-
+/* Estilos para el footer */
 
 .footer-inicio {
     display: flex;
@@ -191,7 +190,7 @@ p
 }
 
 .footer-inicio div {
-    margin-left: 160px;
+    margin-left: 100px;
     margin-right: 30px;
 }
 
@@ -203,6 +202,8 @@ p
 .app-store {
     margin-top: 50px;
 }
+
+
 
 .app-store img {
     width: 135px;
@@ -235,7 +236,7 @@ p
     margin-top: 10px;
 }
 
-.social{
+.social {
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -252,7 +253,6 @@ footer {
     background-color: #323345;
     color: white;
 }
-
 
 /*navbar dos para el cambio*/
 
