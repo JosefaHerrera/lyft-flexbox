@@ -159,7 +159,7 @@ justify-content:flex-end;
 .img-phone {
     margin-right: 100px;
     width: 500px;
-    height: 500px;
+    
 }
 
 .text-informacion1 {
@@ -274,6 +274,11 @@ footer {
 .menu-color a:hover{
  color: #FF00BF;
 }
+
+.img-responsive{
+   width: 100%;
+}
+
 
 
 
