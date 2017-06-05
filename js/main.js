@@ -16,6 +16,5 @@ function cambioDeNavbar() {
         navbar.classList.remove("menu-color");
     }
 }
-
 // Evento para el navegador al hacer scroll que detona la función que provoca los cambios de color en la navbar segun la distancia
 window.addEventListener('scroll', cambioDeNavbar);
